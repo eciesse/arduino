@@ -18,11 +18,14 @@ void loop() {
 
   for(int i =BASE ; i<NUM+BASE ; i++){ 
     digitalWrite(i,HIGH);
-   // delay(100);
-   // digitalWrite(i,LOW);
+   delay(100);
+   //digitalWrite(i,LOW);
    // delay(100);
   } 
-
+ for(int i =NUM+BASE-1 ; i>=BASE ; i--){ 
+    digitalWrite(i,LOW);
+   delay(100);
+  } 
   int LEDbrightness ; 
   int LEDnight ;
      
