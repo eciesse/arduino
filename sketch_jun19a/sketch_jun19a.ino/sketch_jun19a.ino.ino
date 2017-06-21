@@ -24,17 +24,4 @@ Serial.println (distanza);
 delay(1000);
 }
 
-/* long duration = pulseIn( echoPort, HIGH );
-long r = 0.034 * duration / 2;
-Serial.print( "durata: " );
-Serial.print( duration );
-Serial.print( " , " );
-Serial.print( "distanza: " );
-//dopo 38ms è fuori dalla portata del sensore
-if( duration > 38000 ) Serial.println( "fuori portata");
-else { Serial.print( r );
-Serial.println( "cm" );}
-//aspetta 1.5 secondi
-delay( 1500 ); }
-}
-*/
+
